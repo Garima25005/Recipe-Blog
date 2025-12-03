@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TastyBite Recipe Blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <h1>TastyBite Recipe Blog</h1>
+        <p>Your daily dose of delicious recipes</p>
+    </header>
+
+    <!-- SEARCH BAR -->
+    <section class="search">
+        <input type="text" placeholder="Search recipes...">
+        <button>Search</button>
+    </section>
+
+    <!-- RECIPE LIST -->
+    <section class="section">
+        <h2>Popular Recipes</h2>
+
+        <div class="grid">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c" alt="">
+                <h3>Grilled Chicken</h3>
+                <p>Easy and juicy recipe.</p>
+                <div class="rating">⭐⭐⭐⭐☆</div>
+                <button>View Recipe</button>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836" alt="">
+                <h3>Pasta Alfredo</h3>
+                <p>Rich, creamy, and perfect Italian pasta.</p>
+                <div class="rating">⭐⭐⭐⭐⭐</div>
+                <button>View Recipe</button>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1552332386-f8dd00dc2f85" alt="">
+                <h3>Chocolate Cake</h3>
+                <p>Moist, soft, and delicious chocolate cake.</p>
+                <div class="rating">⭐⭐⭐⭐☆</div>
+                <button>View Recipe</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- USER SUBMITTED RECIPES -->
+    <section class="section" id="submit">
+        <h2>Submit Your Recipe</h2>
+
+        <form class="form-box">
+            <input type="text" placeholder="Recipe Name" required>
+            <input type="text" placeholder="Author Name" required>
+            <textarea placeholder="Write your recipe here..." required></textarea>
+            <select>
+                <option>Rate your recipe</option>
+                <option>⭐☆☆☆☆ (1 Star)</option>
+                <option>⭐⭐☆☆☆ (2 Stars)</option>
+                <option>⭐⭐⭐☆☆ (3 Stars)</option>
+                <option>⭐⭐⭐⭐☆ (4 Stars)</option>
+                <option>⭐⭐⭐⭐⭐ (5 Stars)</option>
+            </select>
+            <button type="submit">Submit Recipe</button>
+        </form>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2025 TastyBite Recipe Blog | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
